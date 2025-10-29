@@ -1,5 +1,5 @@
 import { createClient } from '@supabase/supabase-js';
-
+//this contains the SupbaseClients files  that most important have for this app
 const supabaseUrl = import.meta.env.VITE_SUPABASE_URL;
 const supabaseAnonKey = import.meta.env.VITE_SUPABASE_ANON_KEY;
 
