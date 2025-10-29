@@ -1,3 +1,4 @@
+//this is where the weather app launches for first time
 import { useState, useEffect } from 'react';
 import { Moon, Sun, ThermometerSun, MapPin, Heart, Calendar, Clock } from 'lucide-react';
 import { LoadingSpinner } from './components/LoadingSpinner';
