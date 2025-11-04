@@ -1,3 +1,4 @@
+//SearchBar files that help for searching city
 import { useState, useEffect, useRef } from 'react';
 import { Search, X } from 'lucide-react';
 import { searchCities, CitySearchResult } from '../services/weatherService';
