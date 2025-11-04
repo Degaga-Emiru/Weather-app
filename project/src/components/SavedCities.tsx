@@ -1,6 +1,6 @@
 import { Star, Trash2, MapPin } from 'lucide-react';
 import { SavedCity } from '../services/supabaseClient';
-
+//savedCities pages that stores the favorite Cities
 interface SavedCitiesProps {
   cities: SavedCity[];
   onCitySelect: (lat: number, lon: number) => void;
